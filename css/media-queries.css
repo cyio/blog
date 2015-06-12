@@ -1,0 +1,7 @@
+@media only screen and (max-width: 999px){
+	#wrapper{
+		width: 95%;
+		padding: 1.5em .5em;
+		overflow: hidden;
+		}
+}
