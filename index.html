@@ -20,15 +20,15 @@
 		<ul id="gist-list">
 			{% for _, gist in gists %}
 			<li class="gist-item" data-id="{{ gist.id }}" data-raw="{{ gist.files[filename].raw_url }}">
-				<a class="gist-title" href="#/blog/{{ gist.id }}">
+				<a class="gist-title" href="#/code/{{ gist.id }}">
             {{ gist.description }}
           </a>
 				<div class="gist-meta">
-					<a class="gist-created-at" href="#/blog/{{ gist.id }}">
+					<a class="gist-created-at" href="#/code/{{ gist.id }}">
               {{ moment(gist.created_at).format('YYYY-MM-DD HH:mm:ss') }}
             </a>
 					<!--
-            <a class="gist-comment-count" href="#/blog/{{ gist.id }}">
+            <a class="gist-comment-count" href="#/code/{{ gist.id }}">
               {{ gist.comments }}
             </a>
             -->

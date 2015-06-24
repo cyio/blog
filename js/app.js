@@ -7,9 +7,9 @@ $(function() {
       gistDetailTpl = $('#gist-detail-tpl').html(),
       listRender = shani.compile(gistListTpl),
       detailRender = shani.compile(gistDetailTpl),
-      filename = '!.md',
+      filename = 'README.md',
       routers = [
-        [/^\/blog\/([^\/]*)/, blogDetailHandler],
+        [/^\/code\/([^\/]*)/, blogDetailHandler],
         [/^\/$/, homeHandler]
       ],
       languageOverrides = {
