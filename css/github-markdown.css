@@ -182,7 +182,7 @@
 }
 
 .blog-content code {
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family:'Droid Sans Mono', Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 12px;
 }
 
@@ -192,6 +192,7 @@
   font: 12px Cousine, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
+/*
 .blog-content .octicon {
   font: normal normal normal 16px/1 octicons-anchor;
   display: inline-block;
@@ -208,6 +209,7 @@
 .blog-content .octicon-link:before {
   content: '\f05c';
 }
+*/
 
 .blog-content>*:first-child {
   margin-top: 0 !important;
@@ -471,8 +473,9 @@
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  background-color: #E4E4E4;
+  background-color: #fff;
   border-radius: 3px;
+	margin-top: 1em;
 }
 
 .blog-content .highlight pre {
